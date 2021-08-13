@@ -11,11 +11,7 @@ import Footer from "../components/footer/footer"
 const IndexPage = () => {
   return <Layout>
       <title>Shivam's Portfolio</title>
-        {/* <div id="preloader">
-          <div id="loader"></div>
-      </div> */}
-
-
+      
     <Header></Header>
     <Intro></Intro>
     <AboutMe></AboutMe>

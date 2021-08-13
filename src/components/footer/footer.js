@@ -1,9 +1,8 @@
 import React from "react"
-import AOS from 'aos';
 
 export default function Footer() 
 {
-//   AOS.init();
+
   return(
     <div>
         <footer>
@@ -13,11 +12,11 @@ export default function Footer()
             </div>            
 
             <div className="ss-go-top">
-                <a className="smoothscroll" title="Back to Top" href="#top"></a>
+                <a className="smoothscroll" title="Back to Top" href="#intro"></a>
             </div>
         </div>
     </footer>
-    <div aria-hidden="true" className="pswp" role="dialog" tabindex="-1">
+    <div aria-hidden="true" className="pswp" role="dialog" tabIndex="-1">
 
         <div className="pswp__bg"></div>
         <div className="pswp__scroll-wrap">

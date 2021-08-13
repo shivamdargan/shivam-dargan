@@ -1,11 +1,9 @@
 import React from "react"
 import { StaticImage } from 'gatsby-plugin-image'
-import { useEffect } from "react";
 
 export default function Works() 
 {
-    // const AOS=require('aos');
-    // AOS.init();
+
   return(
     <div>
          <section id="works" className="s-works target-section">

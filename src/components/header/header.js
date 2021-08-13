@@ -3,7 +3,7 @@ export default function Header()
 {
   return(
     <div>
-            <header className="s-header">
+            <header id="top" className="s-header">
 
 <div className="header-logo">
     <a className="site-logo" href="index.html">

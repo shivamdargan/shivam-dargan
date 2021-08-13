@@ -1,9 +1,8 @@
 import React from "react"
-import AOS from 'aos';
 
 export default function AboutMe() 
 {
-//   AOS.init();
+
   return(
     <div>
     <section id="about" className="s-about target-section">
