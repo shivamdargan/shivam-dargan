@@ -3,7 +3,7 @@ import AOS from 'aos';
 
 export default function Footer() 
 {
-  AOS.init();
+//   AOS.init();
   return(
     <div>
         <footer>

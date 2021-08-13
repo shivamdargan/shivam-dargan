@@ -3,7 +3,7 @@ import AOS from 'aos';
 
 export default function Services() 
 {
-  AOS.init();
+//   AOS.init();
   return(
     <div>
     <section id="services" className="s-services ss-dark target-section">

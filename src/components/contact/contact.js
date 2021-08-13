@@ -3,7 +3,7 @@ import AOS from 'aos';
 
 export default function Contact() 
 {
-  AOS.init();
+//   AOS.init();
   return(
     <div>
    <section id="contact" className="s-contact ss-dark target-section">

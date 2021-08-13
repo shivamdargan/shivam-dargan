@@ -3,7 +3,7 @@ import AOS from 'aos';
 
 export default function AboutMe() 
 {
-  AOS.init();
+//   AOS.init();
   return(
     <div>
     <section id="about" className="s-about target-section">
