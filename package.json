@@ -21,6 +21,7 @@
     "gatsby-plugin-image": "^1.11.0",
     "gatsby-plugin-load-script": "^1.1.0",
     "gatsby-plugin-sharp": "^3.11.0",
+    "gatsby-plugin-styled-components": "^4.11.0",
     "gatsby-source-filesystem": "^3.11.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
