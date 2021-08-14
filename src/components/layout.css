@@ -2914,7 +2914,6 @@ html {
     position: absolute;
     top: 50%;
     left: 40px;
-    /* background-image: url("../assets/images/NameLogo.jpg"); */
   }
   
   .header-logo a {
@@ -2924,6 +2923,8 @@ html {
     outline: 0;
     border: none;
     transition: all .3s;
+    max-width: 132px;
+    max-height: 36px;
   }
   
   .header-logo img {
