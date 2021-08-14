@@ -2,7 +2,6 @@ import React from "react"
 import "./layout.css"
 import { withPrefix } from "gatsby-link"
 import { useEffect } from "react"
-import { Helmet } from "react-helmet"
 export default function Layout({ children }) 
 {
   let AOS;
@@ -28,13 +27,6 @@ export default function Layout({ children })
   return(
      <div>
       {children}
-      {/* <Helmet>
-            <script src={'/main.js'} type="text/javascript" />
-            <script src={'/modernizr.js'} type="text/javascript" />
-            <script src={'/jquery-3.2.1.min.js'} type="text/javascript" />
-            <script src={'/pace.min.js'} type="text/javascript" />
-            <script src={'/plugins.js'} type="text/javascript" />
-      </Helmet> */}
       </div>
   )
 }

@@ -25,7 +25,7 @@ module.exports = {
               resolve: 'gatsby-plugin-load-script',
               options: {
                 src: '/pace.min.js', // Change to the script filename
-              },
+              },  
             },
             {
               resolve: 'gatsby-plugin-load-script',
@@ -39,11 +39,17 @@ module.exports = {
                 src: '/plugins.js', // Change to the script filename
               },
             },
-            // {
-            //   resolve: 'gatsby-plugin-load-script',
-            //   options: {
-            //     src: '/main.js', // Change to the script filename
-            //   },
-            // },
+            {
+              resolve: `gatsby-plugin-manifest`,
+              options: {
+                name: `shivam-dargan`,
+                short_name: `shivam`,
+                start_url: `/`,
+                background_color: `#663399`,
+                theme_color: `#663399`,
+                display: `minimal-ui`,
+                icon: `src/images/favicon.png`,
+              }
+            },
   ],
 };

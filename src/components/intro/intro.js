@@ -11,7 +11,7 @@ export default function Intro()
                 <h3>Hello, I'm Shivam Dargan</h3>
                 <h1>
                     A Passionate <br/>
-                    Hardworking<br/>
+                    Hardworking <br/>
                     Ambitious <br/>
                     Undergraduate Student
                 </h1>

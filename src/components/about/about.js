@@ -57,7 +57,7 @@ export default function AboutMe()
             <a href="#0" className="btn btn--stroke full-width">Hire Me</a>
         </div>
         <div className="column large-half tab-full" data-aos="fade-up">
-            <a href="#0" className="btn btn--primary full-width">Download CV</a>
+            <a href="../../assets/docs/ShivamDargan_Resume.pdf" className="btn btn--primary full-width" download>Download CV</a>
         </div>
     </div>
 
@@ -83,36 +83,36 @@ export default function AboutMe()
                 <div className="timeline__block">
                     <div className="timeline__bullet"></div>
                     <div className="timeline__header">
-                        <p className="timeline__timeframe">July 2018 - Present</p>
-                        <h3 className="item-title">Awesome Studio</h3>
-                        <h5>Lead Designer</h5>
+                        <p className="timeline__timeframe">September 2020 - Present</p>
+                        <h3 className="item-title">OWASP Student Chapter</h3>
+                        <h5>Core Member</h5>
                     </div>
                     <div className="timeline__desc">
-                        <p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.</p>
+                        <p> <b>Technical Head:</b> Lead the Entire Technical Department during Various Events.<br/> <br/>  <b>Developed</b> Full Fledged Portals Based On React.js, Node.js, Express And Mongoose That Served More Than 500+ Users Simulataneously. <br/> <br/> <b>Managed</b> A Technical Team Of More Than 40 People And Made Sure All The Deadlines Were Met While Still Ensuring Production Quality. <br></br> <br/> <b>Developed</b> Landing Page for Multiple Hackathons. </p>
                     </div>
                 </div>
 
                 <div className="timeline__block">
                     <div className="timeline__bullet"></div>
                     <div className="timeline__header">
-                        <p className="timeline__timeframe">July 2017 - June 2018</p>
-                        <h3 className="item-title">Super Cool Agency</h3>
-                        <h5>Frontend Developer</h5>
+                        <p className="timeline__timeframe">September 2020 - Present</p>
+                        <h3 className="item-title">Thapar Adventure Club</h3>
+                        <h5>Executive Team Member</h5>
                     </div>
                     <div className="timeline__desc">
-                        <p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.</p>
+                        <p><b>Video Editor:</b> Made Cinematic Videos Showcasing the highlights of Various Trips Published On The Club's Social Instagram Page <br/><br/><b>Incharge</b> Of Videography and Photography During Treks and Trips</p>
                     </div>
                 </div>
 
                 <div className="timeline__block">
                     <div className="timeline__bullet"></div>
                     <div className="timeline__header">
-                        <p className="timeline__timeframe">March 2016 - June 2017</p>
-                        <h3 className="item-title">Epic Design Studio</h3>
-                        <h5>Frontend Developer</h5>
+                        <p className="timeline__timeframe">September 2020 - March 2021</p>
+                        <h3 className="item-title">ISTE Student Chapter</h3>
+                        <h5>Team Member</h5>
                     </div>
                     <div className="timeline__desc">
-                        <p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.</p>
+                        <p><b>Web Development:</b> Made Some Static Websites Using HTML, CSS, and Javascript<br/><br/><b>Video Editor:</b> Made Short And Crisp Videos Of The Different Workshops Held By The Society which Were Published On The Club's Handle</p>
                     </div>
                 </div>
 
@@ -129,36 +129,36 @@ export default function AboutMe()
                 <div className="timeline__block">
                     <div className="timeline__bullet"></div>
                     <div className="timeline__header">
-                        <p className="timeline__timeframe">July 2011 - June 2015</p>
-                        <h3 className="item-title">University of Life</h3>
-                        <h5>Master Degree</h5>
+                        <p className="timeline__timeframe">September 2020 - August 2024</p>
+                        <h3 className="item-title">Thapar Institute Of Engineering And Technology</h3>
+                        <h5>Undergraduate Degree</h5>
                     </div>
                     <div className="timeline__desc">
-                        <p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.</p>
+                        <p><b>Pursuing </b>B.E In Computer Science And Business Systems Which Provides Courses With Diverse Fields From Deep Computer Fundamentals Like <b>A.I, ML, DSA,</b> Etc. To Business Fundamentals Like <b>Business Communication, Ententrepreneurship, I.P,</b> Etc.</p>
                     </div>
                 </div>
 
                 <div className="timeline__block">
                     <div className="timeline__bullet"></div>
                     <div className="timeline__header">
-                        <p className="timeline__timeframe">July 2009 - June 2011</p>
-                        <h3 className="item-title">State Design University</h3>
-                        <h5>Bachelor Degree</h5>
+                        <p className="timeline__timeframe">March 2018 - March 2021</p>
+                        <h3 className="item-title">St. Marks Sr. Sec Public School Meera Bagh</h3>
+                        <h5>12<sup>th</sup> Grade <br/><b>96%</b> Aggregate</h5>
                     </div>
                     <div className="timeline__desc">
-                        <p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.</p>
+                        <p>Pursued +2 (High School) In Science Stream Dealing With Subjects Like Physics, Chemistry, Maths, Computer Science, Etc.</p>
                     </div>
                 </div>
 
                 <div className="timeline__block">
                     <div className="timeline__bullet"></div>
                     <div className="timeline__header">
-                        <p className="timeline__timeframe">July 2005 - June 2009</p>
-                        <h3 className="item-title">School of Hard Knocks</h3>
-                        <h5>Bachelor Degree</h5>
+                        <p className="timeline__timeframe">April 2008 - March 2018</p>
+                        <h3 className="item-title">St. Marks Sr. Sec Public School Meera Bagh</h3>
+                        <h5>10<sup>th</sup> Grade <br/><b>85%</b> Aggregate</h5>
                     </div>
                     <div className="timeline__desc">
-                        <p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.</p>
+                        <p>Studied All The Core And Fundamental Subjects (Till Junior High)  Like Mathematics, Social Studies, Science, Etc</p>
                     </div>
                 </div>
 
