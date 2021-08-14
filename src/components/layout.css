@@ -2914,6 +2914,7 @@ html {
     position: absolute;
     top: 50%;
     left: 40px;
+    /* background-image: url("../assets/images/NameLogo.jpg"); */
   }
   
   .header-logo a {
@@ -3222,7 +3223,7 @@ html {
     background-color: #02182c;
     background-repeat: no-repeat;
     background-position: top center;
-    background-image: url(../assets/images/hero-pic.jpg);
+    background-image: url(../assets/images/Headshot.jpg);
     background-size: cover;
     position: absolute;
     top: 20%;

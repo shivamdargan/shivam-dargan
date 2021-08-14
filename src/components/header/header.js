@@ -1,3 +1,4 @@
+import { StaticImage } from "gatsby-plugin-image"
 import React from "react"
 export default function Header() 
 {
@@ -6,8 +7,8 @@ export default function Header()
             <header id="top" className="s-header">
 
 <div className="header-logo">
-    <a className="site-logo" href="index.html">
-        {/* <img src="images/logo.svg" alt="Homepage"/> */}
+    <a className="site-logo" href="#intro">
+        <StaticImage src="../../assets/images/NameLogo.jpg" alt="Homepage"/>
     </a>
 </div>
 
@@ -15,16 +16,16 @@ export default function Header()
     <ul className="header-main-nav">
         <li className="current"><a className="smoothscroll" href="#intro" title="intro">Intro</a></li>
         <li><a className="smoothscroll" href="#about" title="about">About</a></li>
-        <li><a className="smoothscroll" href="#services" title="services">Services</a></li>
-        <li><a className="smoothscroll" href="#works" title="works">Works</a></li>
-        <li><a className="smoothscroll" href="#contact" title="contact us">Say Hello</a></li>	
+        <li><a className="smoothscroll" href="#services" title="services">Skills</a></li>
+        <li><a className="smoothscroll" href="#works" title="works">Projects</a></li>
+        <li><a className="smoothscroll" href="#contact" title="contact us">Contact Me</a></li>	
     </ul>
 
     <ul className="header-social">
-        <li><a href="#0"><i className="fab fa-facebook-f" aria-hidden="true"></i></a></li>
-        <li><a href="#0"><i className="fab fa-twitter" aria-hidden="true"></i></a></li>
-        <li><a href="#0"><i className="fab fa-dribbble" aria-hidden="true"></i></a></li>
-        <li><a href="#0"><i className="fab fa-behance" aria-hidden="true"></i></a></li>
+        <li><a target="_blank" href="https://www.facebook.com/shivam.dargan.cool"><i className="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+        <li><a target="_blank" href="https://www.instagram.com/shivamdargan/"><i className="fab fa-instagram" aria-hidden="true"></i></a></li>
+        <li><a target="_blank" href="https://github.com/shivamdargan"><i className="fab fa-github" aria-hidden="true"></i></a></li>
+        <li><a target="_blank" href="https://twitter.com/ShivamDargan"><i className="fab fa-twitter" aria-hidden="true"></i></a></li>
     </ul>
 </nav>
 

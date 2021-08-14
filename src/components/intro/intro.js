@@ -8,11 +8,12 @@ export default function Intro()
         <div className="row intro-content">
 
             <div className="column large-9 mob-full intro-text">
-                <h3>Hello, I'm John Doe</h3>
+                <h3>Hello, I'm Shivam Dargan</h3>
                 <h1>
-                    Digital Designer <br/>
-                    and Web Developer <br/>
-                    Based In Somewhere.
+                    A Passionate <br/>
+                    Hardworking<br/>
+                    Ambitious <br/>
+                    Undergraduate Student
                 </h1>
             </div>
 
