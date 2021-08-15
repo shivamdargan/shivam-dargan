@@ -8,7 +8,7 @@ export default function Header()
 
 <div className="header-logo">
     <a className="site-logo" href="#intro">
-        <StaticImage src="../../assets/images/NameLogo.jpg" alt="Homepage"/>
+        <StaticImage src="../../assets/images/nameLogo.png" alt="Homepage"/>
     </a>
 </div>
 

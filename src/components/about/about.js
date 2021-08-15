@@ -1,3 +1,4 @@
+import { StaticImage } from "gatsby-plugin-image"
 import React from "react"
 
 export default function AboutMe() 
@@ -18,36 +19,48 @@ export default function AboutMe()
     <div className="row about-me__content" data-aos="fade-up">
         <div className="column large-full about-me__text">
             <p className="lead">
-            Nulla aspernatur nam et accusantium. Tempore delectus dignissimos aut
-            ab commodi. Labore et cupiditate temporibus odio debitis eaque. 
-            Officia provident aut iste et dicta perferendis. Velit iure adipisci. 
-            Molestiae qui fuga rerum facilis.
+            I am Shivam Dargan, Based in <span style={{color:"#CF1867",fontWeight:"bold"}}>New Delhi, India</span> And Have Been Living There Since I Was Born.<br/>
+            I Am A <span style={{color:"#CF1867"}}><b>Full Stack Web Developer</b></span> And I Have Worked On Multiple Projects Using MERN Stack <br/>
+
             </p>
 
             <p>
-            Reprehenderit quia id facilis nihil odit perferendis fugiat quidem voluptas. 
-            Non ratione tenetur. Quis earum quia deleniti fugit fugiat minus omnis. 
-            Iure dolore dolorum. Aspernatur quos cumque ea dolorum nemo nihil 
-            beatae magnam. Qui molestiae rem. Maxime enim provident ipsum reprehenderit tenetur. Et cupiditate 
-            repellendus. Et modi ipsum aut harum. Ratione alias.
+            Constantly Pushing Myself To The Boundaries And Out Of My Comfort Zone, Striving To Better Myself <span style={{color:"#CF1867",fontWeight:"bold"}}>Every Day One Step At Time</span><br/>
+            I Am a <span style={{color:"#CF1867",fontWeight:"bold"}}>Hard Working, Perseverant</span> Individual Fueled With Passion And Motivation. <br/>
+            I Value Time Greatly And Thus, Meeting Deadlines While Still Producing Quality Work Is Something That Comes Natural To Me.
             </p>
 
             <p>
-            Rerum consequatur dolore quae.
-            Qui excepturi facilis quam quae quasi. Mollitia occaecati minus voluptas veniam.
-            Qui excepturi facilis quam quae quasi. Mollitia occaecati minus voluptas veniam. Est est occaecati dolor 
-            qui aut et eum. Aspernatur quos cumque ea dolorum nemo nihil 
-            beatae magnam. Qui molestiae rem.
+                <span style={{color:"#CF1867",fontWeight:"bold"}}>I</span> Enjoy Watching Motorsports, Particularly <span style={{color:"#CF1867", fontWeight:"bold"}}>Formula 1</span>, So If You Ever Want To Discuss  <span style={{color:"#CF1867", fontWeight:"bold"}}>F1</span> Hit Me Up ! <br/>
+                <span style={{color:"#CF1867",fontWeight:"bold"}}>I Am A</span> Fitness Enthusiast And Enjoy Training Heavy And Pushing My Limits. <br/>
+                <span style={{color:"#CF1867",fontWeight:"bold"}}>I Am A</span> Big Tech Geek, Always Looking Forward To Get Hands On The Lastest Gadgets That Release In The Market And To Share My Passion With The World, I Created A <a style={{color:"#CF1867", fontWeight:"bold"}} href="https://www.youtube.com/channel/UCNM3rM76Wwj8e9Evni26L7w">Youtube Channel</a> On Which I Used To Upload Unboxings And Reviews.
+             
             </p>
 
             <p>
-            Maxime enim provident ipsum reprehenderit tenetur. Et cupiditate 
-            repellendus. Et modi ipsum aut harum. Ratione alias sed. Rerum 
-            consequatur dolore quae. Qui excepturi facilis quam quae quasi. 
-            Mollitia occaecati minus voluptas veniam. Est est occaecati dolor 
-            qui aut et eum. Aspernatur quos cumque ea dolorum nemo nihil 
-            beatae magnam. Qui molestiae rem. Aspernatur quos cumque ea dolorum 
-            nemo nihil. Qui molestiae rem.
+                
+                <span style={{color:"#CF1867",fontWeight:"bold",fontSize:"29px"}}>S</span><span style={{color:"#CF1867",fontWeight:"bold"}}>ome</span> Of The Things That I Like To Do In My Free Time Are :<br/>
+                <div style={{lineHeight:"1.0"}}>
+                    <div className="hobbies"><StaticImage src="../../assets/images/guitar.svg"/></div>&nbsp; Playing Guitar
+                </div>
+                <br/>
+                <div style={{lineHeight:"1.0"}}>
+                    <div className="hobbies"><StaticImage src="../../assets/images/badminton.svg"/></div>&nbsp; Playing Badminton
+                </div>
+                <br/>
+                <div style={{lineHeight:"1.0"}}>
+                    <div className="hobbies"><StaticImage src="../../assets/images/dumbell.png"/></div>&nbsp; Working Out
+                </div>
+                <br/>
+                <div style={{lineHeight:"1.0"}}>
+                    <div className="hobbies"><StaticImage src="../../assets/images/games.svg"/></div>&nbsp; Playing Racing/Flight Simulators
+                </div>
+                <br/>
+                <div style={{lineHeight:"1.0"}}>
+                    <div className="hobbies"><StaticImage src="../../assets/images/car.svg"/></div>&nbsp; Going Out For A Drive
+                </div>
+                <br/>
+
             </p>
         </div>
     </div>
