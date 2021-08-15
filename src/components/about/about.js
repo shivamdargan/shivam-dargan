@@ -54,7 +54,7 @@ export default function AboutMe()
 
     <div className="row about-me__buttons">
         <div className="column large-half tab-full" data-aos="fade-up">
-            <a href="#0" className="btn btn--stroke full-width">Hire Me</a>
+            <a href="mailto:shivamdargan@gmail.com?subject=Regarding Hiring/Collabration For A Project" className="btn btn--stroke full-width">Hire Me</a>
         </div>
         <div className="column large-half tab-full" data-aos="fade-up">
             <a href="../../assets/docs/ShivamDargan_Resume.pdf" className="btn btn--primary full-width" download>Download CV</a>
@@ -85,7 +85,7 @@ export default function AboutMe()
                     <div className="timeline__header">
                         <p className="timeline__timeframe">September 2020 - Present</p>
                         <h3 className="item-title">OWASP Student Chapter</h3>
-                        <h5>Core Member</h5>
+                        <h5><span style={{color:"#CF1867"}}>Core Member</span></h5>
                     </div>
                     <div className="timeline__desc">
                         <p> <b>Technical Head:</b> Lead the Entire Technical Department during Various Events.<br/> <br/>  <b>Developed</b> Full Fledged Portals Based On React.js, Node.js, Express And Mongoose That Served More Than 500+ Users Simulataneously. <br/> <br/> <b>Managed</b> A Technical Team Of More Than 40 People And Made Sure All The Deadlines Were Met While Still Ensuring Production Quality. <br></br> <br/> <b>Developed</b> Landing Page for Multiple Hackathons. </p>
@@ -97,7 +97,7 @@ export default function AboutMe()
                     <div className="timeline__header">
                         <p className="timeline__timeframe">September 2020 - Present</p>
                         <h3 className="item-title">Thapar Adventure Club</h3>
-                        <h5>Executive Team Member</h5>
+                        <h5><span style={{color:"#CF1867"}}>Executive Team Member</span></h5>
                     </div>
                     <div className="timeline__desc">
                         <p><b>Video Editor:</b> Made Cinematic Videos Showcasing the highlights of Various Trips Published On The Club's Social Instagram Page <br/><br/><b>Incharge</b> Of Videography and Photography During Treks and Trips</p>
@@ -109,7 +109,7 @@ export default function AboutMe()
                     <div className="timeline__header">
                         <p className="timeline__timeframe">September 2020 - March 2021</p>
                         <h3 className="item-title">ISTE Student Chapter</h3>
-                        <h5>Team Member</h5>
+                        <h5><span style={{color:"#CF1867"}}>Team Member</span></h5>
                     </div>
                     <div className="timeline__desc">
                         <p><b>Web Development:</b> Made Some Static Websites Using HTML, CSS, and Javascript<br/><br/><b>Video Editor:</b> Made Short And Crisp Videos Of The Different Workshops Held By The Society which Were Published On The Club's Handle</p>
@@ -131,7 +131,7 @@ export default function AboutMe()
                     <div className="timeline__header">
                         <p className="timeline__timeframe">September 2020 - August 2024</p>
                         <h3 className="item-title">Thapar Institute Of Engineering And Technology</h3>
-                        <h5>Undergraduate Degree</h5>
+                        <h5><span style={{color:"#CF1867"}}>Undergraduate Degree</span></h5>
                     </div>
                     <div className="timeline__desc">
                         <p><b>Pursuing </b>B.E In Computer Science And Business Systems Which Provides Courses With Diverse Fields From Deep Computer Fundamentals Like <b>A.I, ML, DSA,</b> Etc. To Business Fundamentals Like <b>Business Communication, Ententrepreneurship, I.P,</b> Etc.</p>
@@ -143,7 +143,7 @@ export default function AboutMe()
                     <div className="timeline__header">
                         <p className="timeline__timeframe">March 2018 - March 2021</p>
                         <h3 className="item-title">St. Marks Sr. Sec Public School Meera Bagh</h3>
-                        <h5>12<sup>th</sup> Grade <br/><b>96%</b> Aggregate</h5>
+                        <h5><span style={{color:"#CF1867"}}>12<sup>th</sup> Grade </span><br/><b>96%</b> Aggregate</h5>
                     </div>
                     <div className="timeline__desc">
                         <p>Pursued +2 (High School) In Science Stream Dealing With Subjects Like Physics, Chemistry, Maths, Computer Science, Etc.</p>
@@ -155,7 +155,7 @@ export default function AboutMe()
                     <div className="timeline__header">
                         <p className="timeline__timeframe">April 2008 - March 2018</p>
                         <h3 className="item-title">St. Marks Sr. Sec Public School Meera Bagh</h3>
-                        <h5>10<sup>th</sup> Grade <br/><b>85%</b> Aggregate</h5>
+                        <h5><span style={{color:"#CF1867"}}>10<sup>th</sup> Grade </span><br/><b>85%</b> Aggregate</h5>
                     </div>
                     <div className="timeline__desc">
                         <p>Studied All The Core And Fundamental Subjects (Till Junior High)  Like Mathematics, Social Studies, Science, Etc</p>
