@@ -2,7 +2,7 @@ import React from "react"
 import { StaticImage } from 'gatsby-plugin-image'
 import ctf from "../../../static/CTF.jpg"
 import coviRes from "../../../static/covi-res.jpg"
-import Register from "../../../static/Register.jpg"
+import Register from "../../../static/Registeration.jpg"
 export default function Works() 
 {
   return(
