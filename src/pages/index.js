@@ -11,6 +11,7 @@ import Footer from "../components/footer/footer"
 const IndexPage = () => {
   return <Layout>
       <title>Shivam's Portfolio</title>
+      <meta name="description" content="Interactive Resume Of Shivam Dargan, Undergraduate Student Of Thapar Institute Of Engineering And Technology"/>
     <Header></Header>
     <Intro></Intro>
     <AboutMe></AboutMe>
