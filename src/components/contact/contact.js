@@ -37,9 +37,9 @@ export default function Contact()
     <div className="column large-7 medium-full contact-social">
         <h4>Social</h4>
         <ul>
-            <li><a href="https://github.com/shivamdargan" title="Github">Github</a></li>
-            <li><a href="https://www.youtube.com/c/ShivamDargan/videos" title="Instagram">Youtube</a></li>
-            <li><a href="https://www.instagram.com/shivamdargan/" title="Instagram">Instagram</a></li>
+            <li><a target="_blank" href="https://github.com/shivamdargan" title="Github">Github</a></li>
+            <li><a  target="_blank" href="https://www.youtube.com/c/ShivamDargan/videos" title="Instagram">Youtube</a></li>
+            <li><a  target="_blank" href="https://www.instagram.com/shivamdargan/" title="Instagram">Instagram</a></li>
         </ul>
     </div>
 
