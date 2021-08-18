@@ -25,7 +25,7 @@ export default function Services()
 
     <div className="column item-service" data-aos="fade-up">
         <div className="skills-image">
-        <StaticImage src="../../assets/images/HTML.svg.png"></StaticImage>
+        <StaticImage src="../../assets/images/HTML.svg.png" alt="HTMl"></StaticImage>
         </div>
         <div className="item-service__content">
             <h4 className="item-title">HTML</h4>
@@ -38,7 +38,7 @@ export default function Services()
 
     <div className="column item-service" data-aos="fade-up">
         <div className="skills-image">
-        <   StaticImage src="../../assets/images/CSS1.svg.png"></StaticImage>
+        <   StaticImage src="../../assets/images/CSS1.svg.png" alt="css"></StaticImage>
         </div>
         <div className="item-service__content">
             <h4 className="item-title">CSS</h4>
@@ -51,7 +51,7 @@ export default function Services()
 
     <div className="column item-service" data-aos="fade-up">
         <div className="skills-image">
-        <   StaticImage src="../../assets/images/JS.png"></StaticImage>
+        <   StaticImage src="../../assets/images/JS.png" alt="Js"></StaticImage>
         </div>
         <div className="item-service__content">
             <h4 className="item-title">Javascript</h4>
@@ -64,7 +64,7 @@ export default function Services()
     
     <div className="column item-service" data-aos="fade-up">
         <div className="skills-image">
-        <   StaticImage src="../../assets/images/React.svg.png"></StaticImage>
+        <   StaticImage src="../../assets/images/React.svg.png" alt="react"></StaticImage>
         </div>
         <div className="item-service__content">
             <h4 className="item-title">React.Js</h4>
@@ -77,7 +77,7 @@ export default function Services()
 
     <div className="column item-service" data-aos="fade-up">
         <div className="skills-image">
-        <   StaticImage src="../../assets/images/gatsby.png"></StaticImage>
+        <   StaticImage src="../../assets/images/gatsby.png" alt="gatsby"></StaticImage>
         </div>
         <div className="item-service__content">
             <h4 className="item-title">Gatsby JS</h4>
@@ -91,7 +91,7 @@ export default function Services()
 
     <div className="column item-service" data-aos="fade-up">
         <div style={{paddingTop:"20px"}}className="skills-image">
-        <   StaticImage src="../../assets/images/nodejs.png"></StaticImage>
+        <   StaticImage src="../../assets/images/nodejs.png" alt="nodejs"></StaticImage>
         </div>
         <div className="item-service__content">
             <h4 className="item-title">Node.Js</h4>
@@ -104,7 +104,7 @@ export default function Services()
 
     <div className="column item-service" data-aos="fade-up">
         <div className="skills-image">
-        <   StaticImage src="../../assets/images/mongo.png"></StaticImage>
+        <   StaticImage src="../../assets/images/mongo.png" alt="mongo"></StaticImage>
         </div>
         <div className="item-service__content">
             <h4 className="item-title">Mongo DB</h4>
@@ -117,7 +117,7 @@ export default function Services()
     
     <div className="column item-service" data-aos="fade-up">
         <div className="skills-image">
-        <   StaticImage src="../../assets/images/express.png"></StaticImage>
+        <   StaticImage src="../../assets/images/express.png" alt="express"></StaticImage>
         </div>
         <div className="item-service__content">
             <h4 className="item-title">Expresss JS</h4>
@@ -130,7 +130,7 @@ export default function Services()
 
     <div className="column item-service" data-aos="fade-up">
         <div className="skills-image">
-        <   StaticImage src="../../assets/images/python.png"></StaticImage>
+        <   StaticImage src="../../assets/images/python.png" alt="python"></StaticImage>
         </div>
         <div className="item-service__content">
             <h4 className="item-title">Python</h4>
@@ -143,7 +143,7 @@ export default function Services()
 
     <div className="column item-service" data-aos="fade-up">
         <div className="skills-image">
-        <   StaticImage src="../../assets/images/cpp.svg"></StaticImage>
+        <   StaticImage src="../../assets/images/cpp.svg" alt="cpp"></StaticImage>
         </div>
         <div className="item-service__content">
             <h4 className="item-title">CPP</h4>
@@ -156,7 +156,7 @@ export default function Services()
     
     <div className="column item-service" data-aos="fade-up">
         <div className="skills-image">
-        <   StaticImage src="../../assets/images/premiere.svg"></StaticImage>
+        <   StaticImage src="../../assets/images/premiere.svg" alt="premiere pro"></StaticImage>
         </div>
         <div className="item-service__content">
             <h4 className="item-title">Adobe Premiere Pro</h4>
@@ -169,7 +169,7 @@ export default function Services()
     
     <div className="column item-service" data-aos="fade-up">
         <div className="skills-image">
-        <   StaticImage src="../../assets/images/photoshop.png"></StaticImage>
+        <   StaticImage src="../../assets/images/photoshop.png" alt="photoshop"></StaticImage>
         </div>
         <div className="item-service__content">
             <h4 className="item-title">Adobe Photoshop </h4>

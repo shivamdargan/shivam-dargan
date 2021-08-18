@@ -37,43 +37,46 @@ export default function AboutMe()
              
             </p>
 
-            <p>
+            <span>
                 
                 <span style={{color:"#CF1867",fontWeight:"bold",fontSize:"29px"}}>S</span><span style={{color:"#CF1867",fontWeight:"bold"}}>ome</span> Of The Things That I Like To Do In My Free Time Are :<br/>
                 <div style={{lineHeight:"1.0"}}>
-                    <div className="hobbies"><StaticImage src="../../assets/images/guitar.svg"/></div>&nbsp; Playing Guitar
+                    <div className="hobbies"><StaticImage src="../../assets/images/guitar.svg" alt ="guitar"/></div>&nbsp; Playing Guitar
                 </div>
                 <br/>
                 <div style={{lineHeight:"1.0"}}>
-                    <div className="hobbies"><StaticImage src="../../assets/images/badminton.svg"/></div>&nbsp; Playing Badminton
+                    <div className="hobbies"><StaticImage src="../../assets/images/badminton.svg" alt="badminton"/></div>&nbsp; Playing Badminton
                 </div>
                 <br/>
                 <div style={{lineHeight:"1.0"}}>
-                    <div className="hobbies"><StaticImage src="../../assets/images/dumbell.png"/></div>&nbsp; Working Out
+                    <div className="hobbies"><StaticImage src="../../assets/images/dumbell.png" alt="dumbell"/></div>&nbsp; Working Out
                 </div>
                 <br/>
                 <div style={{lineHeight:"1.0"}}>
-                    <div className="hobbies"><StaticImage src="../../assets/images/games.svg"/></div>&nbsp; Playing Racing/Flight Simulators
+                    <div className="hobbies"><StaticImage src="../../assets/images/games.svg" alt="games"/></div>&nbsp; Playing Racing/Flight Simulators
                 </div>
                 <br/>
                 <div style={{lineHeight:"1.0"}}>
-                    <div className="hobbies"><StaticImage src="../../assets/images/car.svg"/></div>&nbsp; Going Out For A Drive
+                    <div className="hobbies"><StaticImage src="../../assets/images/car.svg" alt="car"/></div>&nbsp; Going Out For A Drive
                 </div>
                 <br/>
 
-            </p>
+            </span>
         </div>
     </div>
 
+    
+       
     <div className="row about-me__buttons">
         <div className="column large-half tab-full" data-aos="fade-up">
             <a href="mailto:shivamdargan@gmail.com?subject=Regarding Hiring/Collabration For A Project" className="btn btn--stroke full-width">Hire Me</a>
         </div>
         <div className="column large-half tab-full" data-aos="fade-up">
-            <a href="../../assets/docs/ShivamDargan_Resume.pdf" className="btn btn--primary full-width" download>Download CV</a>
+            <a href="/ShivamDargan_Resume.pdf" className="btn btn--primary full-width" download>
+                Download CV
+            </a>
         </div>
     </div>
-
 </div> 
 
 <div className="about-experience">

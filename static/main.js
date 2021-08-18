@@ -14,7 +14,6 @@ var doMagic = function() {
         },
     
         $WIN = $(window);
-        console.log("Executed");
         // Add the User Agent to the <html>
         // will be used for IE10/IE11 detection (Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0; rv:11.0))
         var doc = document.documentElement;
@@ -51,7 +50,6 @@ var doMagic = function() {
         var ssMenuOnScrolldown = function() {
             
             var hdr = $('header');
-            console.log(hdr);
             var hdrTop = hdr.offset().top;
             
                

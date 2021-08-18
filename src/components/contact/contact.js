@@ -38,8 +38,8 @@ export default function Contact()
         <h4>Social</h4>
         <ul>
             <li><a href="https://github.com/shivamdargan" title="Github">Github</a></li>
+            <li><a href="https://www.youtube.com/c/ShivamDargan/videos" title="Instagram">Youtube</a></li>
             <li><a href="https://www.instagram.com/shivamdargan/" title="Instagram">Instagram</a></li>
-            <li><a href="https://www.facebook.com/shivam.dargan.cool" title="Facebook">Facebook</a></li>
         </ul>
     </div>
 

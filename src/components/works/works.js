@@ -3,6 +3,11 @@ import { StaticImage } from 'gatsby-plugin-image'
 import ctf from "../../../static/CTF.jpg"
 import coviRes from "../../../static/covi-res.jpg"
 import Register from "../../../static/Registeration.jpg"
+import TiffinGo from "../../../static/TiffinGo.jpg"
+import owasp from "../../../static/Owasp.jpg"
+import vaccine from "../../../static/vaccine.png"
+import bill from "../../../static/bill.jpg"
+import hack from "../../../static/hack.jpg"
 export default function Works() 
 {
   return(
@@ -11,10 +16,10 @@ export default function Works()
 
 <div className="row heading-block heading-block--center" data-aos="fade-up">
     <div className="column large-full">
-        <h2 className="section-heading section-heading--centerbottom">Selected Works</h2>
+        <h2 className="section-heading section-heading--centerbottom">Selected Projects</h2>
         <p className="section-desc">
-            Here are some of my selected works I have done lately. Feel free to 
-            check them out.
+            Here Are Some Of My Selected Projects I Have Done Lately. Feel Free To 
+            Check Them Out.
         </p>
     </div>
 </div> 
@@ -28,7 +33,7 @@ export default function Works()
             <div className="item-folio">
                 <div className="item-folio__thumb">
                     <a href={ctf} className="thumb-link" title="CTF Portal" data-size="2000x1600">
-                        <StaticImage src="../../assets/images/portfolio/ctfCollage.png"
+                        <StaticImage src="../../assets/images/ctfCollage.png"
                               alt=""/>
                     </a>    
                     <a href="https://drive.google.com/file/d/16PqOoQ90dFClw8INbkP-I5lT8X8FUScr/view?usp=sharing" className="item-folio__project-link" title="Project link" target="_blank"></a>
@@ -36,7 +41,7 @@ export default function Works()
 
                 <div className="item-folio__text">
                     <h4 className="item-folio__title">
-                        Capture The Flag (CTF) Portal
+                        Full Fledged Capture The Flag (CTF) Portal
                     </h4>
                     <p className="item-folio__cat">
                         Marvel Themed
@@ -109,23 +114,23 @@ C) A Secret Was Kept Just Until The End Known As The Snap i.e If A Team Has All 
         <div className="masonry__brick" data-aos="fade-up">
             <div className="item-folio">
                 <div className="item-folio__thumb">
-                    <a href="images/portfolio/gallery/g-shutterbug.jpg" className="thumb-link" title="Grow Green" data-size="1050x700">
-                        <StaticImage src="../../assets/images/portfolio/shutterbug.jpg" 
+                    <a href={TiffinGo} className="thumb-link" title="Healthy Food Delivery Webiste" data-size="2000x1600">
+                        <StaticImage src="../../assets/images/TiffinGo.png" 
                               alt=""/>
                     </a>
-                    <a href="https://www.behance.net/" className="item-folio__project-link" title="Project link" target="_blank"></a>
+                    <a href="https://tiffingo.github.io/" className="item-folio__project-link" title="Project link" target="_blank"></a>
                 </div>
                 <div className="item-folio__text">
                     <h4 className="item-folio__title">
-                        Shutterbug
+                        TiffinGo
                     </h4>
                     <p className="item-folio__cat">
-                        Branding
+                        A Healthy Food Delivery Service About Static Website
                     </p>
-                    <br/><b>Tech Stack Used :</b> <span style={{color:"#CF1867"}}>React.js | Express.js, Node.js | Mongo DB</span>
+                    <br/><b>Tech Stack Used :</b> <span style={{color:"#CF1867"}}>HTML5 | CSS | Javascript</span>
                 </div>
                 <div className="item-folio__caption">
-                    <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                <p>A Static Website Presenting All The MSP'S Of The Unique Food Delivery System Articulately And The Requirement Of Such Service In A Short And Crisp Manner.<span style={{color:"#CF1867"}}> <br/>Please Download The Image Using The Button On The Top Right Corner If It Is Not Clearly Visible.</span><br/>Corresponding Link For The Project Is Given At Project Tile.</p>
                 </div>
             </div>
         </div> 
@@ -134,23 +139,23 @@ C) A Secret Was Kept Just Until The End Known As The Snap i.e If A Team Has All 
             <div className="item-folio">
                     
                 <div className="item-folio__thumb">
-                    <a href="images/portfolio/gallery/g-lamp.jpg" className="thumb-link" title="Guitarist" data-size="1050x700">
-                        <StaticImage src="../../assets/images/portfolio/lamp.jpg" 
+                    <a href={owasp} className="thumb-link" title="Technical Society Website" data-size="2000x1600">
+                        <StaticImage src="../../assets/images/Owasp.png" 
                              alt=""/>
                     </a>
-                    <a href="https://www.behance.net/" className="item-folio__project-link" title="Project link" target="_blank"></a>
+                    <a href="http://owasp.co.in/" className="item-folio__project-link" title="Project link" target="_blank"></a>
                 </div>
                 <div className="item-folio__text">
                     <h4 className="item-folio__title">
-                        Lamp
+                        OWASP
                     </h4>
                     <p className="item-folio__cat">
-                        Web Design
+                        Website Of A Technical Society In Thapar University
                     </p>
-                    <br/><b>Tech Stack Used :</b> <span style={{color:"#CF1867"}}>React.js | Express.js, Node.js | Mongo DB</span>
+                    <br/><b>Tech Stack Used :</b> <span style={{color:"#CF1867"}}>HTML5 | CSS | Javascript</span>
                 </div>
                 <div className="item-folio__caption">
-                    <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                <p>A Static Website Presenting The Society's Past Events And Its Culture, Present Team <span style={{color:"#CF1867"}}> <br/>Please Download The Image Using The Button On The Top Right Corner If It Is Not Clearly Visible.</span><br/>Corresponding Link For The Project Is Given At Project Tile.</p>
                 </div>
             </div>
         </div> 
@@ -159,27 +164,76 @@ C) A Secret Was Kept Just Until The End Known As The Snap i.e If A Team Has All 
             <div className="item-folio">
                     
                 <div className="item-folio__thumb">
-                    <a href="images/portfolio/gallery/g-fuji.jpg" className="thumb-link" title="Palmeira" data-size="1050x700">
-                        <StaticImage src="../../assets/images/portfolio/fuji.jpg"
+                    <a href={hack} className="thumb-link" title="Hackathon Website" data-size="2000x1600">
+                        <StaticImage src="../../assets/images/hackowasp.png"
                              alt=""/>
                     </a>
-                    <a href="https://www.behance.net/" className="item-folio__project-link" title="Project link" target="_blank"></a>
+                    <a href="https://hackowasp.live/" className="item-folio__project-link" title="Project link" target="_blank"></a>
                 </div>
                 <div className="item-folio__text">
                     <h4 className="item-folio__title">
-                        Fuji
+                        Landing Page
                     </h4>
                     <p className="item-folio__cat">
-                        Web Design
+                        Hackathon Website
                     </p>
-                    <br/><b>Tech Stack Used :</b> <span style={{color:"#CF1867"}}>React.js | Express.js, Node.js | Mongo DB</span>
+                    <br/><b>Tech Stack Used :</b> <span style={{color:"#CF1867"}}>HTML5 | CSS | Javascript</span>
                 </div>
                 <div className="item-folio__caption">
-                    <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                <p>Built Parts Of The Landing Page Of The Hackathon Webiste For A Technical Society <span style={{color:"#CF1867"}}> <br/>Please Download The Image Using The Button On The Top Right Corner If It Is Not Clearly Visible.</span><br/>Corresponding Link For The Project Is Given At Project Tile.</p>
                 </div>
             </div>
         </div>
 
+        <div className="masonry__brick" data-aos="fade-up">
+            <div className="item-folio">
+                    
+                <div className="item-folio__thumb">
+                    <a href={vaccine} className="thumb-link" title="Vaccine Slot Availability Tracker" data-size="596x637">
+                        <StaticImage src="../../assets/images/VaccineTracker.png"
+                             alt=""/>
+                    </a>
+                    <a href="https://github.com/shivamdargan/Vaccine-Slot-Availability" className="item-folio__project-link" title="Project link" target="_blank"></a>
+                </div>
+                <div className="item-folio__text">
+                    <h4 className="item-folio__title">
+                        Vaccine Slot Availability
+                    </h4>
+                    <p className="item-folio__cat">
+                        Plays Alarm As Soon As Slots Free Up
+                    </p>
+                    <br/><b>Tech Stack Used :</b> <span style={{color:"#CF1867"}}>Python 3 Notebook File </span>
+                </div>
+                <div className="item-folio__caption">
+                <p>A Python Script That Makes Use Of The Cowin API And Fetches Slot According To The Filters Selected And Plays A Sound As Soon As The Availability Of That Particular Vaccine Is More Than 1. All Error Handling And Edge Cases Have Been Covered And Printed.<span style={{color:"#CF1867"}}> <br/>Please Download The Image Using The Button On The Top Right Corner If It Is Not Clearly Visible.</span><br/>Corresponding Link For The Project Is Given At Project Tile.</p>
+                </div>
+            </div>
+        </div>
+
+        <div className="masonry__brick" data-aos="fade-up">
+            <div className="item-folio">
+                    
+                <div className="item-folio__thumb">
+                    <a href={bill} className="thumb-link" title="Billing And Inventory Management System" data-size="2000x1600">
+                        <StaticImage src="../../assets/images/billing.png"
+                             alt=""/>
+                    </a>
+                    <a href="https://github.com/shivamdargan/Billing-and-Inventory-Management" className="item-folio__project-link" title="Project link" target="_blank"></a>
+                </div>
+                <div className="item-folio__text">
+                    <h4 className="item-folio__title">
+                        Billing And Inventory
+                    </h4>
+                    <p className="item-folio__cat">
+                        Management System
+                    </p>
+                    <br/><b>Tech Stack Used :</b> <span style={{color:"#CF1867"}}>C++ Using File Handling System </span>
+                </div>
+                <div className="item-folio__caption">
+                <p>A Console-Based CPP Software Which Allows The Admin To Do Inventory management (Mantain Stock Of Each Product With Different Attributes Like Discount On That Item, Etc.). Allows An Employee To Do Product Billing . Thus, Each Section Having Access To A Particular Region According To The Level Of Permission. <span style={{color:"#CF1867"}}> <br/>Please Download The Image Using The Button On The Top Right Corner If It Is Not Clearly Visible.</span><br/>Corresponding Link For The Project Is Given At Project Tile.</p>
+                </div>
+            </div>
+        </div>
     </div> 
 
 </div> 

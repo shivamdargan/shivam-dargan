@@ -7,7 +7,7 @@ export default function Header()
             <header id="top" className="s-header">
 
 <div className="header-logo">
-    <a className="site-logo" href="#intro">
+    <a className="site-logo smoothscroll" href="#intro">
         <StaticImage src="../../assets/images/nameLogo.png" alt="Homepage"/>
     </a>
 </div>
@@ -22,8 +22,10 @@ export default function Header()
     </ul>
 
     <ul className="header-social">
-        <li><a target="_blank" href="https://www.facebook.com/shivam.dargan.cool"><i className="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+        <li><a target="_blank" href="https://www.youtube.com/c/ShivamDargan/videos"><i className="fab fa-youtube" aria-hidden="true"></i></a></li>
         <li><a target="_blank" href="https://www.instagram.com/shivamdargan/"><i className="fab fa-instagram" aria-hidden="true"></i></a></li>
+        <li><a target="_blank" href="https://www.facebook.com/shivam.dargan.cool"><i className="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+        <li><a target="_blank" href="https://www.linkedin.com/in/shivam-dargan/"><i className="fab fa-linkedin" aria-hidden="true"></i></a></li>
         <li><a target="_blank" href="https://github.com/shivamdargan"><i className="fab fa-github" aria-hidden="true"></i></a></li>
         <li><a target="_blank" href="https://twitter.com/ShivamDargan"><i className="fab fa-twitter" aria-hidden="true"></i></a></li>
     </ul>
