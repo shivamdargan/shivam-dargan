@@ -7,7 +7,7 @@ import TiffinGo from "../../../static/TiffinGo.jpg"
 import owasp from "../../../static/Owasp.jpg"
 import vaccine from "../../../static/vaccine.png"
 import bill from "../../../static/bill.jpg"
-import hack from "../../../static/hack.jpg"
+import hack from "../../../static/hacko.jpg"
 export default function Works() 
 {
   return(
