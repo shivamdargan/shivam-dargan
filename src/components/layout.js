@@ -1,6 +1,5 @@
 import React from "react"
 import "./layout.css"
-import { withPrefix } from "gatsby-link"
 import { useEffect } from "react"
 export default function Layout({ children }) 
 {
