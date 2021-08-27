@@ -104,7 +104,7 @@ export default function AboutMe()
                         <h5><span style={{color:"#CF1867"}}>Core Member</span></h5>
                     </div>
                     <div className="timeline__desc">
-                        <p> <b>Technical Head:</b> Lead the Entire Technical Department during Various Events.<br/> <br/>  <b>Developed</b> Full Fledged Portals Based On React.js, Node.js, Express And Mongoose That Served More Than 500+ Users Simulataneously. <br/> <br/> <b>Managed</b> A Technical Team Of More Than 40 People And Made Sure All The Deadlines Were Met While Still Ensuring Production Quality. <br></br> <br/> <b>Developed</b> Landing Page for Multiple Hackathons. </p>
+                        <p> <b>Technical Head:</b> Lead the Entire Technical Department during Various Events.<br/> <br/>  <b>Developed</b> Full Fledged Portals Based On React.js, Node.js, Express, And Mongoose That Served More Than 500+ Users Simultaneously. <br/> <br/> <b>Managed</b> A Technical Team Of More Than 40 People And Made Sure All The Deadlines Were Met While Still Ensuring Production Quality. <br></br> <br/> <b>Developed</b> Landing Page for Multiple Hackathons. </p>
                     </div>
                 </div>
 
