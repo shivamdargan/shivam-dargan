@@ -8,6 +8,7 @@ import owasp from "../../../static/Owasp.jpg"
 import vaccine from "../../../static/vaccine.png"
 import bill from "../../../static/bill.jpg"
 import hack from "../../../static/hacko.jpg"
+import nayak from "../../../static/gallery.jpg"
 export default function Works() 
 {
   return(
@@ -29,6 +30,31 @@ export default function Works()
     <div className="masonry">
         <div className="grid-sizer"></div>
 
+        <div className="masonry__brick" data-aos="fade-up">
+            <div className="item-folio">
+                    
+                <div className="item-folio__thumb">
+                    <a href={nayak} className="thumb-link" title="Social-Help-Platform" data-size="2000x1600">
+                        <StaticImage src="../../assets/images/nayak.png"
+                             alt=""/>
+                    </a>
+                    <a href="https://nayak-community-help.herokuapp.com/" className="item-folio__project-link" title="Project link" target="_blank"></a>
+                </div>
+                <div className="item-folio__text">
+                    <h4 className="item-folio__title">
+                        Community-Help-Platform
+                    </h4>
+                    <p className="item-folio__cat">
+                        Nayak
+                    </p>
+                    <br/><b>Tech Stack Used :</b> <span style={{color:"#CF1867"}}>React.js | Node.js | Express.js | Redux.js | Geolocation API's</span>
+                </div>
+                <div className="item-folio__caption">
+                <p> <b> This Project Went On To Win 1st Place Overall In HackPrinceton 2021. </b> <br/> Nayak is a community platform (website) for people to Raise their issues in form of Tickets. One can then share the tickets with the community to gain support. The community can view and upvote the tickets raised in their Proximity to show their support for the issue. All tickets are ranked on the main feed based on the upvotes, more upvotes are equal to more pressing and urgent problems. The authorities then, can view the ordered list of most pressing issues and take action on those issues accordingly making the whole process effective and efficient.<span style={{color:"#CF1867"}}> <br/>Please Download The Image Using The Button On The Top Right Corner If It Is Not Clearly Visible.</span><br/>Corresponding Link For The Project Is Given At Project Tile.</p>
+                </div>
+            </div>
+        </div>
+        
         <div className="masonry__brick" data-aos="fade-up">
             <div className="item-folio">
                 <div className="item-folio__thumb">
@@ -143,7 +169,7 @@ C) A Secret Was Kept Just Until The End Known As The Snap i.e If A Team Has All 
                         <StaticImage src="../../assets/images/Owasp.png" 
                              alt=""/>
                     </a>
-                    <a href="http://owasp.co.in/" className="item-folio__project-link" title="Project link" target="_blank"></a>
+                    <a href="http://main.owasp.co.in/" className="item-folio__project-link" title="Project link" target="_blank"></a>
                 </div>
                 <div className="item-folio__text">
                     <h4 className="item-folio__title">

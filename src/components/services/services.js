@@ -23,6 +23,89 @@ export default function Services()
 
 <div className="row services-list block-large-1-3 block-medium-1-2 block-tab-full">
 
+<div className="column item-service" data-aos="fade-up">
+
+        <div className="skills-image">
+        <   StaticImage src="../../assets/images/React.svg.png" alt="react"></StaticImage>
+        </div>
+        <div className="item-service__content">
+            <h4 className="item-title">React.Js</h4>
+            <p style={{fontFamily:"sans-serif"}}>
+            React is a free and open-source front-end JavaScript library for building user interfaces or UI components. It is maintained by Facebook and a community of individual developers and companies.<br/>
+            Current Level : <span style={{color:"#CF1867"}}><b>Highly Proficient</b></span>
+            </p>
+        </div>
+    </div>
+    
+    <div className="column item-service" data-aos="fade-up">
+
+        <div className="skills-image">
+        <   StaticImage src="../../assets/images/logo-redux.png" alt="react"></StaticImage>
+        </div>
+        <div className="item-service__content">
+            <h4 className="item-title">Redux Toolkit</h4>
+            <p style={{fontFamily:"sans-serif"}}>
+            The Redux Toolkit package is intended to be the standard way to write Redux logic. It was originally created to help address common concerns about Redux like Complicated Store, Big Boilerplate Code, Etc.<br/>
+            Current Level : <span style={{color:"#CF1867"}}><b>Moderately Proficient</b></span>
+            </p>
+        </div>
+    </div>
+
+
+    <div className="column item-service" data-aos="fade-up">
+        <div className="skills-image">
+        <   StaticImage src="../../assets/images/gatsby.png" alt="gatsby"></StaticImage>
+        </div>
+        <div className="item-service__content">
+            <h4 className="item-title">Gatsby JS</h4>
+            <p style={{fontFamily:"sans-serif"}}>
+            
+            Gatsby is an open-source static website generator (SSG) that is based on the frontend development framework React and makes use of Webpack and GraphQL technology, Using SSR Which makes pages Very Fast. <br/>
+            Current Level : <span style={{color:"#CF1867"}}><b>Moderately Proficient</b></span>
+            </p>
+        </div>
+    </div>
+    <div className="column item-service" data-aos="fade-up">
+        <div className="skills-image">
+        <   StaticImage src="../../assets/images/python.png" alt="python"></StaticImage>
+        </div>
+        <div className="item-service__content">
+            <h4 className="item-title">Python</h4>
+            <p style={{fontFamily:"sans-serif"}}>
+            Python is an interpreted high-level general-purpose programming language. Python's design philosophy emphasizes code readability with its notable use of significant indentation. <br/>
+            Current Level : <span style={{color:"#CF1867"}}><b>Intermediate</b></span>
+            </p>
+        </div>
+    </div>
+
+   
+
+    <div className="column item-service" data-aos="fade-up">
+        <div className="skills-image">
+        <   StaticImage src="../../assets/images/mongo.png" alt="mongo"></StaticImage>
+        </div>
+        <div className="item-service__content">
+            <h4 className="item-title">Mongo DB</h4>
+            <p style={{fontFamily:"sans-serif"}}>
+            MongoDB is a source-available cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas. <br/>
+            Current Level : <span style={{color:"#CF1867"}}><b>Moderately Proficient</b></span>
+            </p>
+        </div>
+    </div>
+    
+    <div className="column item-service" data-aos="fade-up">
+        <div className="skills-image">
+        <   StaticImage src="../../assets/images/express.png" alt="express"></StaticImage>
+        </div>
+        <div className="item-service__content">
+            <h4 className="item-title">Expresss JS</h4>
+            <p style={{fontFamily:"sans-serif"}}>
+            Express.js, or simply Express, is a back end web application framework for Node.js, released as free and open-source software under the MIT License. It is designed for building web applications and APIs. <br/>
+            Current Level : <span style={{color:"#CF1867"}}><b>Moderately Proficient</b></span>
+            </p>
+        </div>
+    </div>
+
     <div className="column item-service" data-aos="fade-up">
         <div className="skills-image">
         <StaticImage src="../../assets/images/HTML.svg.png" alt="HTMl"></StaticImage>
@@ -30,7 +113,7 @@ export default function Services()
         <div className="item-service__content">
             <h4 className="item-title">HTML</h4>
             <p style={{fontFamily:"sans-serif"}}>
-            The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser. It is used to describe the structure of pages.<br/>
+             HTML is the standard language for documents designed to be displayed in a web browser.<br/>
             Current Level : <span style={{color:"#CF1867"}}><b>Highly Proficient</b></span>
             </p>
         </div>
@@ -63,83 +146,19 @@ export default function Services()
     </div>
     
     <div className="column item-service" data-aos="fade-up">
-        <div className="skills-image">
-        <   StaticImage src="../../assets/images/React.svg.png" alt="react"></StaticImage>
-        </div>
-        <div className="item-service__content">
-            <h4 className="item-title">React.Js</h4>
-            <p style={{fontFamily:"sans-serif"}}>
-            React is a free and open-source front-end JavaScript library for building user interfaces or UI components. It is maintained by Facebook and a community of individual developers and companies.<br/>
-            Current Level : <span style={{color:"#CF1867"}}><b>Highly Proficient</b></span>
-            </p>
-        </div>
-    </div>
-
-    <div className="column item-service" data-aos="fade-up">
-        <div className="skills-image">
-        <   StaticImage src="../../assets/images/gatsby.png" alt="gatsby"></StaticImage>
-        </div>
-        <div className="item-service__content">
-            <h4 className="item-title">Gatsby JS</h4>
-            <p style={{fontFamily:"sans-serif"}}>
-            
-            Gatsby is an open-source static website generator (SSG) that is based on the frontend development framework React and makes use of Webpack and GraphQL technology, Using SSR Which makes pages Very Fast. <br/>
-            Current Level : <span style={{color:"#CF1867"}}><b>Moderately Proficient</b></span>
-            </p>
-        </div>
-    </div>
-
-    <div className="column item-service" data-aos="fade-up">
         <div style={{paddingTop:"20px"}}className="skills-image">
         <   StaticImage src="../../assets/images/nodejs.png" alt="nodejs"></StaticImage>
         </div>
         <div className="item-service__content">
             <h4 className="item-title">Node.Js</h4>
             <p style={{fontFamily:"sans-serif"}}>
-            Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser. Uses JavaScript for server-side scripting.<br/>
+            Node.js is a cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser. <br/>
             Current Level : <span style={{color:"#CF1867"}}><b>Moderately Proficient</b></span>
             </p>
         </div>
     </div>
 
-    <div className="column item-service" data-aos="fade-up">
-        <div className="skills-image">
-        <   StaticImage src="../../assets/images/mongo.png" alt="mongo"></StaticImage>
-        </div>
-        <div className="item-service__content">
-            <h4 className="item-title">Mongo DB</h4>
-            <p style={{fontFamily:"sans-serif"}}>
-            MongoDB is a source-available cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas. <br/>
-            Current Level : <span style={{color:"#CF1867"}}><b>Moderately Proficient</b></span>
-            </p>
-        </div>
-    </div>
     
-    <div className="column item-service" data-aos="fade-up">
-        <div className="skills-image">
-        <   StaticImage src="../../assets/images/express.png" alt="express"></StaticImage>
-        </div>
-        <div className="item-service__content">
-            <h4 className="item-title">Expresss JS</h4>
-            <p style={{fontFamily:"sans-serif"}}>
-            Express.js, or simply Express, is a back end web application framework for Node.js, released as free and open-source software under the MIT License. It is designed for building web applications and APIs. <br/>
-            Current Level : <span style={{color:"#CF1867"}}><b>Moderately Proficient</b></span>
-            </p>
-        </div>
-    </div>
-
-    <div className="column item-service" data-aos="fade-up">
-        <div className="skills-image">
-        <   StaticImage src="../../assets/images/python.png" alt="python"></StaticImage>
-        </div>
-        <div className="item-service__content">
-            <h4 className="item-title">Python</h4>
-            <p style={{fontFamily:"sans-serif"}}>
-            Python is an interpreted high-level general-purpose programming language. Python's design philosophy emphasizes code readability with its notable use of significant indentation. <br/>
-            Current Level : <span style={{color:"#CF1867"}}><b>Intermediate</b></span>
-            </p>
-        </div>
-    </div>
 
     <div className="column item-service" data-aos="fade-up">
         <div className="skills-image">
