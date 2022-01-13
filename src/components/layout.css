@@ -7040,3 +7040,8 @@ a.pswp__share--download:hover {
 }
 
 /*# sourceMappingURL=vendor.css.map */
+.logoSize
+{
+  max-width: 100px;
+  max-height: 100px;
+}

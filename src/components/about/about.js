@@ -100,7 +100,7 @@ export default function AboutMe()
                     <div className="timeline__bullet"></div>
                     <div className="timeline__header">
                         <p className="timeline__timeframe">September 2020 - Present</p>
-                        <h3 className="item-title">OWASP Student Chapter</h3>
+                        <h3 className="item-title"> <span> <StaticImage  class ="logoSize" src="../../assets/images/owaspLogo.png" /> </span> <br/> OWASP Student Chapter</h3> 
                         <h5><span style={{color:"#CF1867"}}>Core Member</span></h5>
                     </div>
                     <div className="timeline__desc">
@@ -111,8 +111,20 @@ export default function AboutMe()
                 <div className="timeline__block">
                     <div className="timeline__bullet"></div>
                     <div className="timeline__header">
+                        <p className="timeline__timeframe">September 2021 - Present</p>
+                        <h3 className="item-title"> <span> <StaticImage class ="logoSize" src="../../assets/images/dsc1.png" /> </span> <br/> Google Developer Student Club</h3>
+                        <h5><span style={{color:"#CF1867"}}>Core Member</span></h5>
+                    </div>
+                    <div className="timeline__desc">
+                        <p><b>Web Development:</b> Worked On Multiple Full- Stack Projects Like OLX for Thapar, etc.<br/><br/><b>Video Editor:</b> Edited Some Videos For The Club's Official Insta Handle. <br/><br/> <b>Organized </b> Virtual Hubs For Events Like Hashcode, 30 Days Of Cloud, GSOC, etc.</p>
+                    </div>
+                </div>
+
+                <div className="timeline__block">
+                    <div className="timeline__bullet"></div>
+                    <div className="timeline__header">
                         <p className="timeline__timeframe">September 2020 - Present</p>
-                        <h3 className="item-title">Thapar Adventure Club</h3>
+                        <h3 className="item-title">  <span> <StaticImage class ="logoSize" src="../../assets/images/adventureClub.png" /> </span> <br/> Thapar Adventure Club</h3>
                         <h5><span style={{color:"#CF1867"}}>Executive Team Member</span></h5>
                     </div>
                     <div className="timeline__desc">
@@ -120,17 +132,7 @@ export default function AboutMe()
                     </div>
                 </div>
 
-                <div className="timeline__block">
-                    <div className="timeline__bullet"></div>
-                    <div className="timeline__header">
-                        <p className="timeline__timeframe">September 2020 - March 2021</p>
-                        <h3 className="item-title">ISTE Student Chapter</h3>
-                        <h5><span style={{color:"#CF1867"}}>Team Member</span></h5>
-                    </div>
-                    <div className="timeline__desc">
-                        <p><b>Web Development:</b> Made Some Static Websites Using HTML, CSS, and Javascript<br/><br/><b>Video Editor:</b> Made Short And Crisp Videos Of The Different Workshops Held By The Society which Were Published On The Club's Handle</p>
-                    </div>
-                </div>
+               
 
             </div>
         </div>
@@ -146,7 +148,7 @@ export default function AboutMe()
                     <div className="timeline__bullet"></div>
                     <div className="timeline__header">
                         <p className="timeline__timeframe">September 2020 - August 2024</p>
-                        <h3 className="item-title">Thapar Institute Of Engineering And Technology</h3>
+                        <h3 className="item-title"><span> <StaticImage class ="logoSize" src ="../../assets/images/thapar.png" /> </span> <br/>Thapar Institute Of Engineering And Technology</h3>
                         <h5><span style={{color:"#CF1867"}}>Undergraduate Degree</span></h5>
                     </div>
                     <div className="timeline__desc">
@@ -158,7 +160,7 @@ export default function AboutMe()
                     <div className="timeline__bullet"></div>
                     <div className="timeline__header">
                         <p className="timeline__timeframe">March 2018 - March 2021</p>
-                        <h3 className="item-title">St. Marks Sr. Sec Public School Meera Bagh</h3>
+                        <h3 className="item-title"><span> <StaticImage class ="logoSize" src ="../../assets/images/smsLogo.png" /> </span> <br/>St. Marks Sr. Sec Public School Meera Bagh</h3>
                         <h5><span style={{color:"#CF1867"}}>12<sup>th</sup> Grade </span><br/><b>96%</b> Aggregate</h5>
                     </div>
                     <div className="timeline__desc">
@@ -170,7 +172,7 @@ export default function AboutMe()
                     <div className="timeline__bullet"></div>
                     <div className="timeline__header">
                         <p className="timeline__timeframe">April 2008 - March 2018</p>
-                        <h3 className="item-title">St. Marks Sr. Sec Public School Meera Bagh</h3>
+                        <h3 className="item-title"><span> <StaticImage class ="logoSize" src ="../../assets/images/smsLogo.png" /> </span> <br/> St. Marks Sr. Sec Public School Meera Bagh</h3>
                         <h5><span style={{color:"#CF1867"}}>10<sup>th</sup> Grade </span><br/><b>85%</b> Aggregate</h5>
                     </div>
                     <div className="timeline__desc">
