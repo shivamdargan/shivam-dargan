@@ -2,7 +2,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
+    siteUrl: "https://shivamdargan.gatsbyjs.io/",
     title: "portfolio-website",
   },
   plugins: ['html-webpack-plugin',

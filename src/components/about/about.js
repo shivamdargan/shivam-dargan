@@ -72,7 +72,7 @@ export default function AboutMe()
             <a href="mailto:shivamdargan@gmail.com?subject=Regarding Hiring/Collabration For A Project" className="btn btn--stroke full-width">Hire Me</a>
         </div>
         <div className="column large-half tab-full" data-aos="fade-up">
-            <a href="/Shivam_Dargan_Resume.pdf" className="btn btn--primary full-width" download>
+            <a href="/ShivamDargan's_Resume.pdf" className="btn btn--primary full-width" download>
                 Download CV
             </a>
         </div>

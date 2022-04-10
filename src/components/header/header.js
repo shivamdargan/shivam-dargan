@@ -16,6 +16,7 @@ export default function Header()
     <ul className="header-main-nav">
         <li className="current"><a className="smoothscroll" href="#intro" title="intro">Intro</a></li>
         <li><a className="smoothscroll" href="#about" title="about">About</a></li>
+        <li><a className="smoothscroll" href="#achievements" title="about">Achievements</a></li>
         <li><a className="smoothscroll" href="#services" title="services">Skills</a></li>
         <li><a className="smoothscroll" href="#works" title="works">Projects</a></li>
         <li><a className="smoothscroll" href="#contact" title="contact us">Contact Me</a></li>	

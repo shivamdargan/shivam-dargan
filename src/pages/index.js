@@ -7,6 +7,7 @@ import Services from "../components/services/services"
 import Works from "../components/works/works"
 import Contact from "../components/contact/contact"
 import Footer from "../components/footer/footer"
+import Achievements from "../components/achievements/achievements"
 // markup
 const IndexPage = () => {
   return <Layout>
@@ -15,6 +16,7 @@ const IndexPage = () => {
     <Header></Header>
     <Intro></Intro>
     <AboutMe></AboutMe>
+    <Achievements></Achievements>
     <Services></Services>
     <Works></Works>
     <Contact></Contact>
