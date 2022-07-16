@@ -8,7 +8,7 @@ export default function Achievements()
     <div>
         
 
-    <section id="achievements" classNameName = "ss-dark target-section">
+    <section id="achievements" className = "ss-dark target-section">
     <div className="row heading-block heading-block--center"  style ={{"paddingTop":"70px"}}data-aos="fade-up">
     <div className="column large-full">
         <h2 className="section-heading section-heading--centerbottom" style={{"color":"white"}}>Achievements</h2>
