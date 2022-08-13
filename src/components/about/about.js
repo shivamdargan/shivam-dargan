@@ -89,12 +89,26 @@ export default function AboutMe()
 
     <div className="row about-experience__timeline">
 
+        
         <div className="column large-half tab-full" data-aos="fade-up">
             <div className="timeline">
 
                 <div className="timeline__icon-wrap">
                     <span className="timeline__icon timeline__icon--work"></span>
                 </div>
+
+                <div className="timeline__block">
+                    <div className="timeline__bullet"></div>
+                    <div className="timeline__header">
+                        <p className="timeline__timeframe">July 2022 - Present</p>
+                        <h3 className="item-title"> <span> <img class ="logoSize" src="https://wendor.b-cdn.net/wp-content/uploads/2020/01/web-logo.png" /> </span> <br/>Wendor</h3> 
+                        <h5><span style={{color:"#CF1867"}}>Full Stack Developer Intern</span></h5>
+                    </div>
+                    <div className="timeline__desc">
+                        <p> <b>Recharge Portal:</b> Built RFID/Other Categories Based Recharge Wallet Portal On Next With TS, Redux, And Nest With TS For Backend Endpoints. <br/> <br/>  <b>Integrated</b> Paytm Payment Gateway With Next Application, Verifying Checksum With PayTM. <br/> <br/> <b>Documented</b> The Wireframes, API Requests, DB Design, And Testing Along The Way. </p>
+                    </div>
+                </div>
+
 
                 <div className="timeline__block">
                     <div className="timeline__bullet"></div>
@@ -120,7 +134,7 @@ export default function AboutMe()
                     </div>
                 </div>
 
-                <div className="timeline__block">
+                {/* <div className="timeline__block">
                     <div className="timeline__bullet"></div>
                     <div className="timeline__header">
                         <p className="timeline__timeframe">September 2020 - Present</p>
@@ -130,7 +144,7 @@ export default function AboutMe()
                     <div className="timeline__desc">
                         <p><b>Video Editor:</b> Made Cinematic Videos Showcasing the highlights of Various Trips Published On The Club's Social Instagram Page <br/><br/><b>Incharge</b> Of Videography and Photography During Treks and Trips</p>
                     </div>
-                </div>
+                </div> */}
 
                
 

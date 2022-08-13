@@ -1,4 +1,3 @@
-import { StaticImage } from "gatsby-plugin-image"
 import React from "react"
 
 
@@ -66,7 +65,7 @@ export default function Services()
                 <div className="fill" style={{"transform":"var(--value-percentage90)" , "--to-deg":"var(--value-percentage90);"}}></div>
              </div>
              <div className="inside-circle"></div>
-            <img src="https://images.tute.io/tute/topic/express-js.png" alt="express icon" className="ch-img"/>
+            <img src="https://user-images.githubusercontent.com/11978772/40430986-a0eb7b92-5e63-11e8-80eb-43fe07f664a6.png" alt="express icon" className="ch-img"/>
             <div className="ch-info">
                 <h3>Very Proficient</h3>
                 <p>Express.js</p>
@@ -245,7 +244,7 @@ export default function Services()
                 <div className="fill" style={{"transform":"var(--value-percentage70)" , "--to-deg":"var(--value-percentage70);"}}></div>
              </div>
              <div className="inside-circle"></div>
-            <img src="https://www.nginx.com/wp-content/uploads/2020/05/NGINX-product-icon.svg" alt="nginx icon" className="ch-img"/>
+            <img src="https://dwglogo.com/wp-content/uploads/2017/09/3630px-Nginx_logo.png" alt="nginx icon" className="ch-img"/>
             <div className="ch-info">
                 <h3>Working Proficiency</h3>
                 <p>Nginx</p>
