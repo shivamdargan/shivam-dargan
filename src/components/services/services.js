@@ -14,7 +14,7 @@ export default function Services()
         <h2 className="section-heading section-heading--centerbottom">Skills</h2>
 
         <p className="section-desc">
-            Some Of The Top Skills That I Have Acquired Over The Time
+            Some Of The Prominent Skills That I Have Acquired Over The Time
         </p>
     </div>
 </div>
@@ -282,6 +282,97 @@ export default function Services()
             <div className="ch-info">
                 <h3>Highly Proficient</h3>
                 <p>C++</p>
+            </div>
+            </div>
+    </li>
+</ul>
+
+
+</div>
+
+<div className="skills" data-aos="fade-up">
+  <ul className="ch-grid">
+    <li>
+        <div className="circle"> 
+            <div className="mask half">
+                <div className="fill" style={{"transform":"var(--value-percentage80)" , "--to-deg":"var(--value-percentage80)"}}></div>
+            </div>
+            <div className="mask full" style={{"transform":"var(--value-percentage80)" , "--to-deg":"var(--value-percentage80)"}}>
+                <div className="fill" style={{"transform":"var(--value-percentage80)" , "--to-deg":"var(--value-percentage80)"}}></div>
+             </div>
+             <div className="inside-circle"> </div>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nextjs-logo.svg/800px-Nextjs-logo.svg.png" alt="ts icon" className="ch-img" style={{"backgroundSize":"cover"}}/>
+            <div className="ch-info">
+                <h3>Experienced</h3>
+                <p>Next.js</p>
+            </div>
+            </div>
+    </li>
+    <li>
+        <div className="circle"> 
+            <div className="mask half">
+                <div className="fill" style={{"transform":"var(--value-percentage60)" , "--to-deg":"var(--value-percentage60)"}}></div>
+            </div>
+            <div className="mask full" style={{"transform":"var(--value-percentage60)" , "--to-deg":"var(--value-percentage60)"}}>
+                <div className="fill" style={{"transform":"var(--value-percentage60)" , "--to-deg":"var(--value-percentage60)"}}></div>
+             </div>
+             <div className="inside-circle"> </div>
+            <img src="https://docs.nestjs.com/assets/logo-small.svg" alt="js icon" className="ch-img"/>
+            <div className="ch-info">
+                <h3>Working Proficiency</h3>
+                <p>Nest.js</p>
+            </div>
+            </div>
+    </li>
+    
+  
+    <li>
+        <div className="circle"> 
+            <div className="mask half">
+                <div className="fill" style={{"transform":"var(--value-percentage80)" , "--to-deg":"var(--value-percentage80);"}}></div>
+            </div>
+            <div className="mask full" style={{"transform":"var(--value-percentage70)" , "--to-deg":"var(--value-percentage70);"}}>
+                <div className="fill" style={{"transform":"var(--value-percentage70)" , "--to-deg":"var(--value-percentage70);"}}></div>
+             </div>
+             <div className="inside-circle"></div>
+            <img src="https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/001/287/square_480/prismaHD.png" alt="nginx icon" className="ch-img"/>
+            <div className="ch-info">
+                <h3>Good Proficiency</h3>
+                <p>Prisma ORM</p>
+            </div>
+            </div>
+    </li>
+
+    <li>
+        <div className="circle"> 
+            <div className="mask half">
+                <div className="fill" style={{"transform":"var(--value-percentage80)" , "--to-deg":"var(--value-percentage80);"}}></div>
+            </div>
+            <div className="mask full" style={{"transform":"var(--value-percentage80)" , "--to-deg":"var(--value-percentage80);"}}>
+                <div className="fill" style={{"transform":"var(--value-percentage80)" , "--to-deg":"var(--value-percentage80);"}}></div>
+             </div>
+             <div className="inside-circle"></div>
+            <img src="https://sequelize.org/img/logo.svg" alt="python icon" className="ch-img"/>
+            <div className="ch-info">
+                <h3>Very Proficient</h3>
+                <p>Sequelize ORM</p>
+            </div>
+        </div>
+    </li>
+
+    <li>
+        <div className="circle"> 
+            <div className="mask half">
+                <div className="fill" style={{"transform":"var(--value-percentage50)" , "--to-deg":"var(--value-percentage50);"}}></div>
+            </div>
+            <div className="mask full" style={{"transform":"var(--value-percentage50)" , "--to-deg":"var(--value-percentage50);"}}>
+                <div className="fill" style={{"transform":"var(--value-percentage50)" , "--to-deg":"var(--value-percentage50);"}}></div>
+             </div>
+             <div className="inside-circle"></div>
+            <img src="https://cdn-icons-png.flaticon.com/512/9240/9240330.png" alt="docker icon" className="ch-img"/>
+            <div className="ch-info">
+                <h3>Limited Proficiency</h3>
+                <p>Machine Learning</p>
             </div>
             </div>
     </li>

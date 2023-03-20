@@ -23,7 +23,6 @@ export default function Header()
     </ul>
 
     <ul className="header-social">
-        <li><a target="_blank" href="https://www.youtube.com/c/ShivamDargan/videos"><i className="fab fa-youtube" aria-hidden="true"></i></a></li>
         <li><a target="_blank" href="https://www.instagram.com/shivamdargan/"><i className="fab fa-instagram" aria-hidden="true"></i></a></li>
         <li><a target="_blank" href="https://www.facebook.com/shivam.dargan.cool"><i className="fab fa-facebook-f" aria-hidden="true"></i></a></li>
         <li><a target="_blank" href="https://www.linkedin.com/in/shivam-dargan/"><i className="fab fa-linkedin" aria-hidden="true"></i></a></li>

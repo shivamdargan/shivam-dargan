@@ -21,8 +21,8 @@ export default function Contact()
 
         <p className="section-desc">
         I'm happy to connect, listen and help. Let's work together and build
-        something awesome. Let's turn your idea to an even greater product.
-        <a href="mailto:sdargan_be20@thapar.edu">Email Me</a>.
+        something awesome. Let's turn your idea to an even greater product!
+        <a href="mailto:sdargan_be20@thapar.edu"> &nbsp; Email Me</a>.
         </p>
     </div>
 </div>
@@ -38,7 +38,7 @@ export default function Contact()
         <h4>Social</h4>
         <ul>
             <li><a target="_blank" href="https://github.com/shivamdargan" title="Github">Github</a></li>
-            <li><a  target="_blank" href="https://www.youtube.com/c/ShivamDargan/videos" title="Instagram">Youtube</a></li>
+            <li><a  target="_blank" href="https://www.linkedin.com/in/shivam-dargan/" title="Instagram">Linkedin</a></li>
             <li><a  target="_blank" href="https://www.instagram.com/shivamdargan/" title="Instagram">Instagram</a></li>
         </ul>
     </div>

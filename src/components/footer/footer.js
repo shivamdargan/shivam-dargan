@@ -2,13 +2,15 @@ import React from "react"
 
 export default function Footer() 
 {
+    let date = new Date();
+
 
   return(
     <div>
         <footer>
         <div className="row">
             <div className="column large-full ss-copyright">
-                <span>© Copyright Shivam Dargan 2021</span> 
+                <span>© Copyright Shivam Dargan {date.getFullYear()}</span> 
             </div>            
 
             <div className="ss-go-top">

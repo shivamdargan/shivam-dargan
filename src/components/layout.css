@@ -3222,11 +3222,11 @@ html {
   }
   
   .intro-pic {
-    background-color: #02182c;
+    background-color: #091317;
     background-repeat: no-repeat;
     background-position: top center;
-    background-image: url(../assets/images/Headshot2.jpg);
-    background-size: cover;
+    background-image: url(../assets/images/final_headshot.png);
+    background-size:contain;
     position: absolute;
     top: 20%;
     right: 0;

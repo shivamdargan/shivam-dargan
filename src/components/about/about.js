@@ -20,7 +20,7 @@ export default function AboutMe()
         <div className="column large-full about-me__text">
             <p className="lead">
             I am Shivam Dargan, Based in <span style={{color:"#CF1867",fontWeight:"bold"}}>New Delhi, India</span> And Have Been Living There Since I Was Born.<br/>
-            I Am A <span style={{color:"#CF1867"}}><b>Full Stack Web Developer</b></span> And I Have Worked On Multiple Projects Using MERN Stack <br/>
+            I Am A <span style={{color:"#CF1867"}}><b>Full Stack Web Developer</b></span> And I Have Worked On Multiple Projects Using Multiple Technologies Like MERN, PERN Stacks. <br/>
 
             </p>
 
@@ -45,11 +45,11 @@ export default function AboutMe()
                 </div>
                 <br/>
                 <div style={{lineHeight:"1.0"}}>
-                    <div className="hobbies"><StaticImage src="../../assets/images/badminton.svg" alt="badminton"/></div>&nbsp; Playing Badminton
+                    <div className="hobbies"><StaticImage src="../../assets/images/dumbell.png" alt="dumbell"/></div>&nbsp; Working Out
                 </div>
                 <br/>
                 <div style={{lineHeight:"1.0"}}>
-                    <div className="hobbies"><StaticImage src="../../assets/images/dumbell.png" alt="dumbell"/></div>&nbsp; Working Out
+                    <div className="hobbies"><StaticImage src="../../assets/images/badminton.svg" alt="badminton"/></div>&nbsp; Playing Badminton
                 </div>
                 <br/>
                 <div style={{lineHeight:"1.0"}}>
@@ -69,7 +69,7 @@ export default function AboutMe()
        
     <div className="row about-me__buttons">
         <div className="column large-half tab-full" data-aos="fade-up">
-            <a href="mailto:shivamdargan@gmail.com?subject=Regarding Hiring/Collabration For A Project" className="btn btn--stroke full-width">Hire Me</a>
+            <a href="mailto:darganshivam2001@gmail.com?subject=Regarding Hiring/Collabration For A Project" className="btn btn--stroke full-width">Hire Me</a>
         </div>
         <div className="column large-half tab-full" data-aos="fade-up">
             <a href="\Shivam_Dargan_Resume.pdf" className="btn btn--primary full-width" download>
@@ -100,7 +100,7 @@ export default function AboutMe()
                 <div className="timeline__block">
                     <div className="timeline__bullet"></div>
                     <div className="timeline__header">
-                        <p className="timeline__timeframe">July 2022 - Present</p>
+                        <p className="timeline__timeframe">July 2022 - September 2022</p>
                         <h3 className="item-title"> <span> <img class ="logoSize" src="https://wendor.b-cdn.net/wp-content/uploads/2020/01/web-logo.png" /> </span> <br/>Wendor</h3> 
                         <h5><span style={{color:"#CF1867"}}>Full Stack Developer Intern</span></h5>
                     </div>
@@ -115,7 +115,7 @@ export default function AboutMe()
                     <div className="timeline__header">
                         <p className="timeline__timeframe">September 2020 - Present</p>
                         <h3 className="item-title"> <span> <StaticImage  class ="logoSize" src="../../assets/images/owaspLogo.png" /> </span> <br/> OWASP Student Chapter</h3> 
-                        <h5><span style={{color:"#CF1867"}}>Core Member</span></h5>
+                        <h5><span style={{color:"#CF1867"}}>Joint Secretary</span></h5>
                     </div>
                     <div className="timeline__desc">
                         <p> <b>Technical Head:</b> Lead the Entire Technical Department during Various Events.<br/> <br/>  <b>Developed</b> Full Fledged Portals Based On React.js, Node.js, Express, And Mongoose That Served More Than 500+ Users Simultaneously. <br/> <br/> <b>Managed</b> A Technical Team Of More Than 40 People And Made Sure All The Deadlines Were Met While Still Ensuring Production Quality. <br></br> <br/> <b>Developed</b> Landing Page for Multiple Hackathons. </p>
@@ -125,7 +125,7 @@ export default function AboutMe()
                 <div className="timeline__block">
                     <div className="timeline__bullet"></div>
                     <div className="timeline__header">
-                        <p className="timeline__timeframe">September 2021 - Present</p>
+                        <p className="timeline__timeframe">September 2021 - April 2023</p>
                         <h3 className="item-title"> <span> <StaticImage class ="logoSize" src="../../assets/images/dsc1.png" /> </span> <br/> Google Developer Student Club</h3>
                         <h5><span style={{color:"#CF1867"}}>Core Member</span></h5>
                     </div>
