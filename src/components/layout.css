@@ -3222,7 +3222,7 @@ html {
   }
   
   .intro-pic {
-    background-color: #091317;
+    background-color: transparent;
     background-repeat: no-repeat;
     background-position: top center;
     background-image: url(../assets/images/final_headshot.png);
