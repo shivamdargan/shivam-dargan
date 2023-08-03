@@ -24,7 +24,7 @@ export default function Intro()
             </div>
 
             <div className="intro-grid"></div>
-            <div className="intro-pic"></div>
+            <div className="intro-pic" alt="Shivam Dargan"></div>
 
         </div> 
 
